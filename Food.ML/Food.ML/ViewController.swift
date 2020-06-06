@@ -52,7 +52,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 if firstResult.identifier.contains("burger"){
                     self.navigationItem.title = "Burger!"
                 }else{
-                    self.navigationItem.title = "Not Burger!"
+                    self.navigationItem.title = "Not Burger! It's \(firstResult.identifier)"
                 }
             }
         }
